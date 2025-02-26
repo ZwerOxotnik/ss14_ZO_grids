@@ -54,7 +54,12 @@ entities:
     - type: DecalGrid
       chunkCollection:
         version: 2
-        nodes: []
+        nodes:
+        - node:
+            color: '#7272006C'
+            id: WoodTrimThinLineW
+          decals:
+            2: -4,-1
     - type: GridAtmosphere
       version: 2
       data:
@@ -107,7 +112,7 @@ entities:
       pos: -0.5,-1.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -1105.3125
+      secondsUntilStateChange: -6071.794
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -257,8 +262,6 @@ entities:
       pos: -1.5,-1.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 25
 - proto: GasVentScrubber
@@ -270,8 +273,6 @@ entities:
       pos: -2.5,-1.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 25
 - proto: LampGold
