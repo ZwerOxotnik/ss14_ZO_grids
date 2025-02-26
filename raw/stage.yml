@@ -65,10 +65,10 @@ entities:
         version: 2
         nodes:
         - node:
-            color: '#CCCC00FF'
+            color: '#FFFFFFFF'
             id: WoodTrimThinLineE
           decals:
-            17: -3,-12
+            21: -3,-12
         - node:
             color: '#888500FF'
             id: WoodTrimThinLineN
@@ -106,7 +106,11 @@ entities:
             id: WoodTrimThinLineW
           decals:
             16: -2,-12
-            18: -1,-12
+        - node:
+            color: '#FFFFFFFF'
+            id: WoodTrimThinLineW
+          decals:
+            20: -1,-12
     - type: GridAtmosphere
       version: 2
       data:
