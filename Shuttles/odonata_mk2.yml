@@ -652,7 +652,7 @@ entities:
       pos: 0.5,15.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -12001.656
+      secondsUntilStateChange: -12659.289
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -663,7 +663,7 @@ entities:
       pos: 3.5,15.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -12002.356
+      secondsUntilStateChange: -12659.989
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -675,7 +675,7 @@ entities:
       pos: 0.5,21.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -815.1547
+      secondsUntilStateChange: -1472.7874
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -687,7 +687,7 @@ entities:
       pos: 3.5,21.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -814.7881
+      secondsUntilStateChange: -1472.4207
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -701,7 +701,7 @@ entities:
       pos: 1.5,13.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -11164.924
+      secondsUntilStateChange: -11822.557
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -715,7 +715,7 @@ entities:
       pos: -2.5,19.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -9148.859
+      secondsUntilStateChange: -9806.492
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -727,7 +727,7 @@ entities:
       pos: -2.5,20.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -9148.626
+      secondsUntilStateChange: -9806.259
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -739,7 +739,7 @@ entities:
       pos: 5.5,20.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -9150.093
+      secondsUntilStateChange: -9807.726
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -751,7 +751,7 @@ entities:
       pos: 5.5,19.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -9150.359
+      secondsUntilStateChange: -9807.992
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -764,7 +764,7 @@ entities:
       pos: 1.5,3.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -15196.189
+      secondsUntilStateChange: -15853.822
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -781,7 +781,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -9147.992
+      secondsUntilStateChange: -9805.625
       state: Opening
   - uid: 20
     components:
@@ -793,7 +793,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -9148.226
+      secondsUntilStateChange: -9805.858
       state: Opening
   - uid: 21
     components:
@@ -805,7 +805,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -9149.726
+      secondsUntilStateChange: -9807.358
       state: Opening
   - uid: 22
     components:
@@ -817,7 +817,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -9149.492
+      secondsUntilStateChange: -9807.125
       state: Opening
 - proto: AmeController
   entities:
@@ -4083,6 +4083,8 @@ entities:
     - type: Transform
       pos: -2.5,26.5
       parent: 1
+    - type: Anchorable
+      delay: 90000
 - proto: SurveillanceCameraRouterGeneral
   entities:
   - uid: 481
@@ -4090,6 +4092,8 @@ entities:
     - type: Transform
       pos: -3.5,25.5
       parent: 1
+    - type: Anchorable
+      delay: 90000
 - proto: SurveillanceCameraRouterSupply
   entities:
   - uid: 482
@@ -4097,6 +4101,8 @@ entities:
     - type: Transform
       pos: -1.5,26.5
       parent: 1
+    - type: Anchorable
+      delay: 90000
 - proto: SurveillanceCameraSupply
   entities:
   - uid: 483
